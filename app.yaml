@@ -1,0 +1,5 @@
+runtime: python39
+entrypoint: gunicorn -b :$PORT main:app
+
+env_variables:
+  TOGETHER_API_KEY: 'a18c9313356c6d115edee12b37a77f5ebce4656361077556cb792851963faedf'
